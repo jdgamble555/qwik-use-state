@@ -1,5 +1,3 @@
 import { useState } from "./use-state";
 
-export const useCounter = () => {
-    return useState('counter', () => 1);
-};
+export const useCounter = () => useState('counter', () => 1);
