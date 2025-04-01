@@ -1,6 +1,6 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
-import Child from "~/components/child";
+import Child from "~/routes/child";
 import { useCounter } from "~/components/use-counter";
 
 export default component$(() => {

@@ -1,5 +1,5 @@
 import { component$ } from "@builder.io/qwik";
-import { useCounter } from "./use-counter";
+import { useCounter } from "../components/use-counter";
 
 export default component$(() => {
 
